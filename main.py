@@ -1,7 +1,7 @@
 import requests
 from telegram.ext import Updater, CommandHandler
 
-BOT_TOKEN = "7987348424:AAH5K-z1fIv7tDlzJJR1RmjtPYaZJHTBsgk"
+BOT_TOKEN = ""
 API_URL = "https://openexchangerates.org/api/latest.json?app_id=15e04396216e4a3d87b6ca2058031608"
 
 
@@ -63,3 +63,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
